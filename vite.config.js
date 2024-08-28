@@ -8,7 +8,7 @@ import liveReload from 'vite-plugin-live-reload';
 
 function moveOutputPlugin() {
   return {
-    name: 'move-output',
+    name: 'week4',
     enforce: 'post',
     apply: 'build',
     async generateBundle(options, bundle) {
